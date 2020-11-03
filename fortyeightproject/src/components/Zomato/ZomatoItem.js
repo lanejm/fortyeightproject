@@ -1,5 +1,5 @@
 import React from 'react'
-import './ZomatoItem.css'
+// import './ZomatoItem.css'
 
 const ZomatoItem = (props) => {
 

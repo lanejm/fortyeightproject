@@ -29,4 +29,4 @@ const Zomato = (props) => {
   )
 }
 
-export default Zomato
+export default Zomato;
