@@ -1,12 +1,12 @@
 import React from 'react'
 import ZomatoItem from './ZomatoItem'
 
-const ZomatoList = (props) => {
+const ZomatoList = ( {items = []} ) => {
     return (
         <div>
-            {props.Zomato.map((sfObj, i) => <ZomatoItem sf={sfObj} key={i} />)}
+          {items.map( (rObj,i) => <ZomatoItem item={rObj} key={i}  /> )}
         </div>
     )
-}
+};
 
 export default ZomatoList
